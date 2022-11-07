@@ -21,9 +21,13 @@ a {
 
 
 header {
-    height: 100vh;
+    height: 150vh;
     width: 100vw;
     background-color: bisque;
+}
+
+.header_bg {
+    background-image: url(../img/carbo_bg.jpg);
 }
 
 nav {
@@ -44,5 +48,69 @@ h1 {
     font-size: 5rem;
     font-weight: lighter;
     text-align: center;
+    margin-bottom: 3rem;
 }
 
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid palevioletred;
+}
+
+h2 {
+    color: palevioletred;
+    font-family: "chicken";
+    margin-bottom: 1rem;   
+}
+
+.jojo {
+    width: 300px;
+    text-align: left;
+}
+
+.preview {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.p_recipe {
+    margin-bottom: 0.25rem;
+    font-size: small;
+}
+
+#top_part {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#carboChrono {
+    padding: 0.75rem 1.5rem;
+    background-color: palevioletred;
+    color: black;
+    font-size: 1rem;
+    font-weight: lighter;
+    font-family: "chicken";
+    border: 1px solid pink;
+    border-radius: 15px;
+    transform: translateX(210%);
+}
+
+.fifi {
+    font-family: "chicken";
+    font-size: large;
+}
+
+.video {
+    margin: 1rem auto;
+    transform: translateX(25%);
+}
