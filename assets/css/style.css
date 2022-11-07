@@ -26,10 +26,6 @@ header {
     background-color: bisque;
 }
 
-.header_bg {
-    background-image: url(../img/carbo_bg.jpg);
-}
-
 nav {
     background-color: gold;
     display: flex;
