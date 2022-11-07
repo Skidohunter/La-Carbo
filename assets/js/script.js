@@ -1,6 +1,6 @@
 let nav = document.querySelector("#navTuning");
 let stopbtn = document.getElementById("anim");
-let h1 = document.querySelector(".h1Anim");
+let h1 = document.querySelector("h1");
 let imgNav = document.getElementById("imgNav");
 let imgNav2 = document.getElementById("imgNav2");
 document.addEventListener('click', anim);
