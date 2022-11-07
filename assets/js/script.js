@@ -1,3 +1,14 @@
+
+const minBtn = document.getElementById("carboChrono");
+const merguez = document.getElementById("merguez");
+
+minBtn.addEventListener("click", disco);
+
+minBtn.addEventListener('click', function(){
+        let merguez = document.getElementById("merguez");
+        player.play();
+});
+
 let nav = document.querySelector("#navTuning");
 let stopbtn = document.getElementById("anim");
 let h1 = document.querySelector(".h1Anim");
@@ -13,3 +24,4 @@ function anim(){
     imgNav2.classList.toggle('displayNone');
     
 }
+
