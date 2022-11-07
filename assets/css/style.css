@@ -16,7 +16,7 @@ a {
     color: palevioletred;
     font-family: "chicken";
     font-size: 2rem;
-    transition: all ;
+    transition: ease-in-out 0.3s;
 }
 
 
@@ -26,11 +26,15 @@ header {
     background-color: bisque;
 }
 
-nav {
+#navTuning {
     background-color: gold;
     display: flex;
     justify-content: center;
 }
+.headerBg{
+    animation: change-background 1s ease infinite;
+}
+
 
 li {
     display: flex;
@@ -44,5 +48,88 @@ h1 {
     font-size: 5rem;
     font-weight: lighter;
     text-align: center;
+   
+    
+}
+.h1Anim{
+    animation: change-h1 1s ease infinite;
+}
+
+a:hover{
+    color: green;
+}
+
+@keyframes change-h1 {
+    0% {
+        color: #69b7eb;
+      }
+      10%{
+        color: pink;
+      }
+      20%{
+        color:red;
+      }
+      30%{
+        color: darkmagenta;
+      }
+      40%{
+        color: gold;
+      }
+      50% {
+        color: #b3dbd3;
+        transform: scale(50%);
+        transform: scale(-80%);
+      }
+      60%{
+        color: greenyellow;
+      }
+      70%{
+        color: peru;
+      }
+      80%{
+        color: coral;
+      }
+      90%{
+        color: aqua;
+      }
+      100% {
+        color: #f4d6db;
+      }
+}
+
+@keyframes change-background {  
+      0% {
+        background-color: #69b7eb;
+      }
+      10%{
+        background-color: pink;
+      }
+      20%{
+        background-color:red;
+      }
+      30%{
+        background-color: darkmagenta;
+      }
+      40%{
+        background-color: gold;
+      }
+      50% {
+        background-color: #b3dbd3;
+      }
+      60%{
+        background-color: greenyellow;
+      }
+      70%{
+        background-color: peru;
+      }
+      80%{
+        background-color: coral;
+      }
+      90%{
+        background-color: aqua;
+      }
+      100% {
+        background-color: #f4d6db;
+      }
 }
 
