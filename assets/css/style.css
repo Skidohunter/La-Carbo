@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "chicken";
+    src: url(../fonts/Chicken_Butt.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: palevioletred;
+    font-family: "chicken";
+    font-size: 2rem;
+    transition: all ;
+}
+
+
+header {
+    height: 100vh;
+    width: 100vw;
+    background-color: bisque;
+}
+
+nav {
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+h1 {
+    font-family: "chicken";
+    color: palevioletred;
+    font-size: 5rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
